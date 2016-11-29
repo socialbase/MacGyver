@@ -957,7 +957,7 @@ MacTagAutocompleteController.prototype.onKeyDown = function ($event) {
   var stroke = $event.which || $event.keyCode;
   switch(stroke) {
     case this.keys.BACKSPACE:
-      if (!this.$scope.textInput && angular.isArray(this.selected)) {
+      if (!this.textInput && angular.isArray(this.selected)) {
         this.selected.pop();
       }
       break;
