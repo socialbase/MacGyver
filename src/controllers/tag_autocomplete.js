@@ -17,7 +17,7 @@ function MacTagAutocompleteController ($scope, $element, $attrs, $parse, $timeou
 
   this.textInput = '';
 
-  this.labelKey = this.labelKey != undefined ? this.labelKey : 'name';
+  this.labelKey = this.labelKey != undefined ? this.labelKey : $attrs.macTagAutocompleteLabel;
   this.labelGetter = $parse(this.labelKey);
 }
 
