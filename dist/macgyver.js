@@ -1,5 +1,5 @@
 /**
- * MacGyver v1.0.0
+ * MacGyver v1.0.1
  * @link http://angular-macgyver.github.io/MacGyver
  * @license 
  */
